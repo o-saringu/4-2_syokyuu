@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>第4章変数　STEP2-初級問題</title>
+	<link rel = "stylesheet" href="website.css">
+</head>
+
+<body>
+	<div class = "title">
+	<h1 class = "daimei">プログラム復習コンテンツ</h1>
+	<div class="home"></div>
+	</div>
+
+	<h1 class = "daimei2">第４章変数　STEP2-初級問題</h1>
+
+	<div class = "yokonarabi">
+	<div class = "mondai">
+	<p class="midasi1">問題のコード</p>
+	<img src="4syou_2_syokyuu_mondai.png">
+	</div>
+
+	<div class = "gamen">
+	<p class="midasi2">プログラム実行画面</p>
+	<img src="4syou_2_syokyuu_kekka.png">
+	</div>
+	</div>
+
+	<p class="midasi3">問題文</p>
+	<div class = "mondaibun">
+	<p>上図は,線を繰り返しで生成するプログラムです.</p>
+	<p>(1)int型の変数iを宣言し,初期値を30としてください.</p>
+	<p>(2)iの値が210未満の場合に実行するようにプログラムを埋めてください.</p>
+	<p>(3)iの値が10ずつ増えていくようにプログラムを埋めてください.</p>
+	<input type="checkbox" id="check1">
+	<label class="check1" for="check1">ヒント</label>
+	<div class = "hinto">
+	<p>(1)初期値は以下のように記入する.</p>
+	<p> 変数型 変数名　＝　初期値;</p>
+	<p>(2)不等号を使用して表現する.</p>
+	<p>(3)変数の値を変化させるには以下のように記入する.</p>
+	<p> [値を増加させたい場合]　変数名　＋＝　数値　</p>
+	<p> [値を減少させたい場合]　変数名　-＝　数値　</p>
+	
+	</div>
+	</div>
+	
+	<p class="midasi4">解答欄</p>
+	<div class = "kaitouran">
+	<p>
+	<label>(1)<input type="text" id="one" size="80" placeholder="解答を入力"></label>
+	<p id = "text1"></p>
+	</p>
+
+
+	<p>
+	<label>(2)<input type="text" id="two" size="80" placeholder="解答を入力"</label>
+	<p id = "text2"></p>
+	</p>
+
+	<p>
+	<label>(3)<input type="text" id="three" size="80" placeholder="解答を入力"</label>
+	<p id = "text3"></p>
+	</p>
+
+
+	<p>(1)int i=30;</p>
+	<p>(2)i<210;</p>
+	<p>(3)i += 10</p>
+
+	<input type="button" id="btn" value="判定">
+	
+	
+	</div>
+
+	<script src = "main.js"></script>	
+</body>
+
+</html>
